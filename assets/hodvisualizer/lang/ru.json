@@ -1,0 +1,17 @@
+{
+  "hodvisualizer:mod-name": "HOD Visualizer",
+  "hodvisualizer:status-thirst-title": "Жажда",
+  "hodvisualizer:status-thirst-body": "Уровень гидратации снижен ({0:0.#}%).",
+  "hodvisualizer:status-severe-thirst-title": "Жажда",
+  "hodvisualizer:status-severe-thirst-body": "Вас мучает жажда. Вы передвигаетесь на {0:0.#}% медленнее.",
+  "hodvisualizer:status-dehydrating-title": "Критическая жажда",
+  "hodvisualizer:status-dehydrating-body": "Гидрация на нуле. Вы получаете периодический урон и передвигаетесь на {0:0.#}% медленнее.",
+  "hodvisualizer:status-hot-title": "Вам жарко",
+  "hodvisualizer:status-hot-body": "Вам жарко, поэтому жажда расходуется на {0:0.#}% быстрее.",
+  "hodvisualizer:status-cold-title": "Вам холодно",
+  "hodvisualizer:status-cold-body": "Потеря очков жажды уменьшена на {0:0.#}% (из-за охлаждения).",
+  "hodvisualizer:status-encumbrance-title": "Перегруз жидкостями",
+  "hodvisualizer:status-encumbrance-body": "Скорость передвижения снижена на {0:0.#}% из-за перегруза жидкостями.",
+  "hodvisualizer:status-nutrition-deficit-title": "Вода была с привкусом",
+  "hodvisualizer:status-nutrition-deficit-body": "Накопленный штраф пит. веществ: {0:0.#}."
+}

@@ -1,0 +1,17 @@
+{
+  "hodvisualizer:mod-name": "HOD Visualizer",
+  "hodvisualizer:status-thirst-title": "Thirst",
+  "hodvisualizer:status-thirst-body": "Hydration is low ({0:0.#}%).",
+  "hodvisualizer:status-severe-thirst-title": "Thirst",
+  "hodvisualizer:status-severe-thirst-body": "You are thirsty. Movement speed is reduced by {0:0.#}%.",
+  "hodvisualizer:status-dehydrating-title": "Critical thirst",
+  "hodvisualizer:status-dehydrating-body": "Hydration is empty. You take periodic damage and move {0:0.#}% slower.",
+  "hodvisualizer:status-hot-title": "You are hot",
+  "hodvisualizer:status-hot-body": "You are hot, so thirst drains {0:0.#}% faster.",
+  "hodvisualizer:status-cold-title": "You are cold",
+  "hodvisualizer:status-cold-body": "Thirst point loss reduced by {0:0.#}% (due to cooling).",
+  "hodvisualizer:status-encumbrance-title": "Liquid encumbrance",
+  "hodvisualizer:status-encumbrance-body": "Movement speed reduced by {0:0.#}% due to carrying too much liquid.",
+  "hodvisualizer:status-nutrition-deficit-title": "Water tasted off",
+  "hodvisualizer:status-nutrition-deficit-body": "Accumulated nutrition deficit: {0:0.#}."
+}
