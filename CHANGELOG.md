@@ -4,6 +4,8 @@ All notable changes to this project are documented in this file.
 
 ## [Unreleased]
 
+## [1.0.0] - 2026-05-13
+
 ### Added
 - Initial `hodvisualizer` mod scaffold with status-strip provider integration for Hydrate Or Diedrate.
 - Domain evaluators and tests for thirst tiers, heat/cold effect, liquid encumbrance, and nutrition deficit.

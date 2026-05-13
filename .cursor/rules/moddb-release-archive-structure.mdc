@@ -1,0 +1,30 @@
+---
+description: Enforce ModDB zip root structure for hodvisualizer releases
+alwaysApply: true
+---
+
+# ModDB Release Archive Structure
+
+When creating a release archive for `hodvisualizer`, the zip must be ModDB-compatible.
+
+## Required archive layout
+
+- `modinfo.json` must exist at the **root** of the `.zip`.
+- `HodVisualizer.dll`, `HodVisualizer.deps.json`, and `assets/...` must be at root-level paths (not nested under `hodvisualizer/`).
+
+## Packaging rule
+
+- Do **not** zip the parent folder (`hodvisualizer/`) itself.
+- Zip `bin/Release/Mods/hodvisualizer/*` so files land directly in archive root.
+
+## Mandatory verification before handing archive to user
+
+Run a quick archive entry check and confirm root `modinfo.json` exists.
+
+Example verification command:
+
+`Add-Type -AssemblyName System.IO.Compression.FileSystem; $z=[System.IO.Compression.ZipFile]::OpenRead("<zipPath>"); $z.Entries | ForEach-Object { $_.FullName }; $z.Dispose()`
+
+## Stop condition
+
+If `modinfo.json` is not in archive root, rebuild archive before reporting success.

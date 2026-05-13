@@ -4,7 +4,7 @@
   "name": "HOD Visualizer",
   "authors": ["RodyaFront"],
   "description": "Status-strip visualizer for Hydrate Or Diedrate mechanics. Requires HydrateOrDiedrate and PlayerStatusStrip.",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "dependencies": {
     "game": "*",
     "hydrateordiedrate": "*",

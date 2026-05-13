@@ -2,3 +2,7 @@ bin/
 obj/
 TestResults/
 .vs/
+*LANDING*.html
+*landing*.html
+CHANGELOG*.html
+*changelog*.html
