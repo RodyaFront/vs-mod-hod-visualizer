@@ -6,3 +6,6 @@ TestResults/
 *landing*.html
 CHANGELOG*.html
 *changelog*.html
+
+# Generated release archives
+release/*.zip
