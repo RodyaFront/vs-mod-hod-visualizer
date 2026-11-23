@@ -4,6 +4,11 @@ All notable changes to this project are documented in this file.
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-11-23
+
+### Fixed
+- Packaging: release zip entries now use `/` path separators. Previous archives used `\`, so on Linux the `hodvisualizer` asset domain never registered (no icons, no lang files). Release archives are built with `scripts/package-release.ps1`.
+
 ## [1.0.0] - 2026-05-13
 
 ### Added
